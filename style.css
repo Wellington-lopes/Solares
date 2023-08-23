@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans:wght@400;700&family=Roboto+Mono:wght@400;500;700&family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: rgb(199, 199, 33);
+}
+
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.left {
+
+    width: 15vw;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: black;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 10px 80px #00000056;
+}
+
+.right {
+    height: 50vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FEFAA1;
+    flex-direction: column;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 10px 80px #00000056; 
+}
+
+.card1{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn-dark {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding: 10px;
+    border: 3px solid white;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: 0px 0px 40px -12px #00000052;
+
+}
+
+.right .btn-dark {
+   border: none;
+   width: 10vw;
+
+}
+
+.card1 p {
+    padding-bottom: 25px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+.textfield input {
+    width: 25vw;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px 30px;
+    background: #E2CE1A;
+}
+
+.textfield {
+    position: relative;
+}
+
+.textfield i {
+    position: absolute;
+    padding-left: 31px;
+    padding-top: 18px;
+
+}
+
+
+input::placeholder {
+    color: black;
+    font-weight: 800;
+    padding-left: 2px;
+}
+
+.card2 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.btn:hover{
+    transition: background 1s;
+    background: #585858;
