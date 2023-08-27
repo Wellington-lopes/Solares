@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans:wght@400;700&family=Roboto+Mono:wght@400;500;700&family=Roboto:ital,wght@0,400;1,700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
     background: rgb(199, 199, 33);
 }
-
 
 main {
     width: 100vw;
@@ -34,6 +33,10 @@ main {
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
     padding: 30px;
+}
+
+.left:hover, 
+.right:hover {
     box-shadow: 0px 10px 80px #00000056;
 }
 
@@ -46,11 +49,10 @@ main {
     background: #FEFAA1;
     flex-direction: column;
     border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-    box-shadow: 0px 10px 80px #00000056; 
+    border-top-right-radius: 10px;   
 }
 
-.card1{
+.card1 {
     color: white;
     justify-content: center;
     align-items: center;
@@ -116,7 +118,6 @@ main {
 
 }
 
-
 input::placeholder {
     color: black;
     font-weight: 800;
@@ -130,6 +131,7 @@ input::placeholder {
     padding: 10px;
 }
 
-.btn:hover{
+.btn-dark:hover {
     transition: background 1s;
     background: #585858;
+}
